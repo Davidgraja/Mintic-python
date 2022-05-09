@@ -80,11 +80,21 @@
 
 
 
-kilometros = 12.25
-millas = 7.38
+# kilometros = 12.25
+# millas = 7.38
 
-millas_a_kilometros =  millas * 1.609
-kilometros_a_millas = kilometros / 1.60934
-print(millas,"millas son ", round(millas_a_kilometros,2), "kilometros")
-print(kilometros,"kilometros son ", round(kilometros_a_millas,2), "millas")
+# millas_a_kilometros =  millas * 1.609
+# kilometros_a_millas = kilometros / 1.60934
+# print(millas,"millas son ", round(millas_a_kilometros,2), "kilometros")
+# print(kilometros,"kilometros son ", round(kilometros_a_millas,2), "millas")
 
+# x = float(input("Ingresa el valor para x: "))
+       
+# y =1 /(x + 1/(x + 1 / (x +1 / x)))
+       
+# print("y =", y)
+
+peso = float(input("ingrese su peso : "))
+estatura = float(input("ingrese su altura : "))
+proceso = peso / estatura **2
+print(f"tu indice de masa corporal es de : {round(proceso,2)}")
