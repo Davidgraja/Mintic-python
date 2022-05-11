@@ -94,7 +94,14 @@
        
 # print("y =", y)
 
-peso = float(input("ingrese su peso : "))
-estatura = float(input("ingrese su altura : "))
-proceso = peso / estatura **2
-print(f"tu indice de masa corporal es de : {round(proceso,2)}")
+# peso = float(input("ingrese su peso : "))
+# estatura = float(input("ingrese su altura : "))
+# proceso = peso / estatura **2
+# print(f"tu indice de masa corporal es de : {round(proceso,2)}")
+usuario = int(input(("ingrese un numero del 18 al 25 --> ")))
+if usuario >= 18:
+  while usuario  in range(18,25):
+    print("estamos en el rango")
+    numero= int(input("ingrese un numero del 18 al 25"))
+else:
+  print("estas fuera del rango")
