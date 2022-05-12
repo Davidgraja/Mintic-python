@@ -94,14 +94,77 @@
        
 # print("y =", y)
 
-# peso = float(input("ingrese su peso : "))
-# estatura = float(input("ingrese su altura : "))
-# proceso = peso / estatura **2
-# print(f"tu indice de masa corporal es de : {round(proceso,2)}")
-usuario = int(input(("ingrese un numero del 18 al 25 --> ")))
-if usuario >= 18:
-  while usuario  in range(18,25):
-    print("estamos en el rango")
-    numero= int(input("ingrese un numero del 18 al 25"))
-else:
-  print("estas fuera del rango")
+peso = float(input("ingrese su peso : "))
+estatura = float(input("ingrese su altura : "))
+proceso = peso / estatura **2
+print(f"tu indice de masa corporal es de : {round(proceso,2)}")
+
+# usuario = int(input(("ingrese un numero del 18 al 25 --> ")))
+# if usuario >= 18:
+#   while usuario  in range(18,25):
+#     print("estamos en el rango")
+#     numero= int(input("ingrese un numero del 18 al 25"))
+# else:
+#   print("estas fuera del rango")
+
+
+
+
+
+# contraseña = input("ingrese su contraseña --> ").lower()
+# pregunta = input("¿ingrese nuevamente su contraseña ? --> ").lower()
+
+# if contraseña == pregunta:
+#   print("Contraseña correcta")
+# else:
+#   print("Contraseña incorrecta")
+
+
+
+#pizeria Bella Napoli
+
+# print(" pizzas : \n 1.Vegetariana \n 2.No vegetariana")
+# print()
+# pizza = input(" ¿cual pizza deseas ? ")
+
+# print()
+
+# if pizza == "1":
+#   print("ingredientes : pimiento y tufu ")
+#   print()
+#   ingrediente= input("¿ Cual ingrediente deseas añadir ? ").lower()
+#   print()
+  
+#   if ingrediente == "pimiento" or ingrediente == "tufu":
+#     print(f"  pizza : Vegetariana \n  ingredientes : Mozzarella , Tomate , {ingrediente}")
+    
+  
+#   else:
+#     print("Ingrediente no encontrado , ingrese de nuevo")
+
+# elif pizza == "2":
+  
+#   print("ingredientes : peperoni , jamon y salmon ")
+#   print()
+#   ingrediente= input("¿ Cual ingrediente deseas añadir ? ").lower()
+#   print()
+  
+#   if ingrediente == "peperoni" or  ingrediente== "jamon" or ingrediente == "salmon":
+    
+    
+    
+    
+#     print(f"  pizza : No vegetariana \n  ingredientes : peperoni, jamon , salmon , {ingrediente}")
+  
+#   else:
+#     print("Ingrediente no encontrado  , ingrese de nuevo")
+
+# else:
+#   print("pizza no encontrada")
+
+  
+  
+  
+      
+# print("ingredientes : Peperoni , jamón  y Salmon ")
+  
