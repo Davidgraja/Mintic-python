@@ -1,9 +1,9 @@
 
-# prueba = ([
-#  (9852,'Culata', 'XC9875',2,165,'Luis Molero',3455846,'14/06/2020'),
-#  (9852,'Culata', 'XC9875',2,165,'Jose Mejia',1355846,'14/06/2020'),
-#  (2564,'Cárter', 'PT29872',2,32,'Peter Cerezo',8545436,'14/06/2020'),
-#  (5412,'válvula', 'AZ8798',2,11,'Juan Peña',568975,'14/06/2020')]),
+prueba = ([
+ (9852,'Culata', 'XC9875',2,165,'Luis Molero',3455846,'14/06/2020'),
+ (9852,'Culata', 'XC9875',2,165,'Jose Mejia',1355846,'14/06/2020'),
+ (2564,'Cárter', 'PT29872',2,32,'Peter Cerezo',8545436,'14/06/2020'),
+ (5412,'válvula', 'AZ8798',2,11,'Juan Peña',568975,'14/06/2020')]),
 
 prueba2 = ([
  (2001,'rosca', 'PT29872',2,45,'Luis Molero',3456,'12/06/2020'),
@@ -30,7 +30,7 @@ def AutoPartes(ventas):
 
     return diccionario
 
-# print(AutoPartes(prueba2))
+
 
 
 def consultaRegistro(ventas, idproducto):
@@ -42,19 +42,17 @@ def consultaRegistro(ventas, idproducto):
             encontrado = registro[y].get("idProducto")
       
     if idproducto == encontrado:
-        # print("hay elementos encontrados")
         for i in range(len(registro)):
-            # print(registro[i].values())    
             if idproducto ==registro[i].get("idProducto"):
-                # print(registro[i].get("idProducto"))
-                print(f'Producto consultado : {registro[i].get("idProducto")}  Descipcrión {registro[i].get("dProducto")} #Parte {registro[i].get("pnProducto")} Cantidad vendida {registro[i].get("cvProducto")} Stock {registro[i].get("sProducto")} Comprador {registro[i].get("nComprador")} Documento {registro[i].get("cComprador")} Fecha Venta {registro[i].get("fVenta")}')
+                print("Producto consultado :",  registro[i].get("idProducto"),"Descripción",  registro[i].get("dProducto"),"#Parte",  registro[i].get("pnProducto"),"Cantidad vendida",  registro[i].get("cvProducto"),"Stock",  registro[i].get("sProducto"),"Comprador", registro[i].get("nComprador"),"Documento",  registro[i].get("cComprador")," Fecha Venta",  registro[i].get("fVenta"))
+                
     else:
         print("No hay registro de venta de ese producto")
                 
            
      
              
-consultaRegistro(prueba3,2010)
+consultaRegistro(prueba,9852)
 
 
 
