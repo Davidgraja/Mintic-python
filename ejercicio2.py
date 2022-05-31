@@ -94,10 +94,10 @@
        
 # print("y =", y)
 
-peso = float(input("ingrese su peso : "))
-estatura = float(input("ingrese su altura : "))
-proceso = peso / estatura **2
-print(f"tu indice de masa corporal es de : {round(proceso,2)}")
+# peso = float(input("ingrese su peso : "))
+# estatura = float(input("ingrese su altura : "))
+# proceso = peso / estatura **2
+# print(f"tu indice de masa corporal es de : {round(proceso,2)}")
 
 # usuario = int(input(("ingrese un numero del 18 al 25 --> ")))
 # if usuario >= 18:
@@ -168,3 +168,42 @@ print(f"tu indice de masa corporal es de : {round(proceso,2)}")
       
 # print("ingredientes : Peperoni , jamón  y Salmon ")
   
+# nombre=input("ingrese  su nombre --> ")
+# edad=int(input("ingrese  su edad --> "))
+# direccion=input("ingrese  su direccion --> ")
+# telefono = int(input("ingrese  su telefono --> "))
+
+
+# diccionario = dict(nombre=nombre,edad=edad,direccion =direccion,telefono =telefono)
+# print(diccionario["nombre"], "tiene ", diccionario["edad"],"años , vive en ",diccionario["direccion"],"y su telefono es : ",diccionario["telefono"])
+
+
+# def tiendaJosesito():
+#     diccionario ={}
+#     print("Binevenido:")
+#     cantidad=int(input("ingrese la cantidad de frutas que desee añadir -->"))
+#     for i in range(cantidad):
+#         nombreFruta=input("ingrese el nombre de la  frutas que desea añadir -->")
+#         valorFruta=float(input("ingrese el valor de la fruta -->"))
+#         diccionario[nombreFruta]=valorFruta
+    
+#     guardar = input("desea guardar esta lista de frutas ? ")
+#     if guardar == "si":
+#         print("Lista guardada con exito !")
+#         mostrarClientes = input("Desea mostrarla al  cliente ? ")
+#         if mostrarClientes=="si":
+#             print("Bienvenido , que producto desea ? -- >")
+#             print(diccionario)
+#     # return diccionario  
+
+# tiendaJosesito()
+# # def cliente():
+# #     frutas = tiendaJosesito()
+# #     print(frutas)
+# # # cliente()
+
+# # def tienda():
+# #     frutas = tiendaJosesito()
+#     frutas()
+ 
+# tienda()
